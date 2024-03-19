@@ -1,0 +1,28 @@
+[package]
+name = "code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+blog-client = "0.2.0"
+
+[workspace]
+members = [ 
+    "async_cpu_heavy", 
+    "atomic",
+    "data_race", 
+    "mutex", 
+    "workshop_async/as_setup", 
+    "workshop_async/axum_setup", 
+    "workshop_async/blog_client", 
+    "workshop_async/db_setup", 
+    "workshop_thread/no_mutex", 
+    "workshop_thread/perf_check", 
+    "workshop_thread/shuffle", 
+    "workshop_thread/simple_chunks", 
+    "workshop_thread/single_thread", 
+    "workshop_thread/use_all_cpus", 
+    "workshop_thread/with_rayon"
+]

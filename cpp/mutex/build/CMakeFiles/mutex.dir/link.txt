@@ -1,0 +1,1 @@
+/usr/bin/c++ -static-libgcc -static-libstdc++ -static CMakeFiles/mutex.dir/mutex.cpp.o -o mutex 

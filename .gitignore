@@ -1,0 +1,5 @@
+manual/book
+cpp/data_race/bin
+cpp/atomics/bin
+code/workshop_async/db_setup/blog.db*
+code/target
