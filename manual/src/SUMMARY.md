@@ -48,3 +48,5 @@
     - [Is this fast?](./as-workshop-bench.md)
 - [Threads and Async, Happily Living Together???](./mixed-intro.md)
     - ["Block on"](./mixed-block-on.md)
+    - ["Sending Messages into Thread Land"](./mixed_thread_async_channel.md)
+    - ["Why do this?"](./mixed_threads_why.md)

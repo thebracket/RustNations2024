@@ -12,7 +12,6 @@ use std::{thread, sync::atomic::{AtomicUsize, Ordering}};
 const LOOP_COUNTER: usize = 10000;
 const N_THREADS: usize = 100;
 
-/// Safety: Hold my beer
 fn main() {
     let counter = AtomicUsize::new(0);
 

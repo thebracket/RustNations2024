@@ -1,5 +1,7 @@
 manual/book
 cpp/data_race/bin
 cpp/atomics/bin
+cpp/data_race/build
 code/workshop_async/db_setup/blog.db*
 code/target
+code/vendor

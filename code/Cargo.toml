@@ -6,13 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-blog-client = "0.2.0"
 
 [workspace]
 members = [ 
     "async_cpu_heavy", 
     "atomic",
-    "data_race", 
+    "data_race",
     "mutex", 
     "workshop_async/as_setup", 
     "workshop_async/axum_setup", 
@@ -24,5 +23,13 @@ members = [
     "workshop_thread/simple_chunks", 
     "workshop_thread/single_thread", 
     "workshop_thread/use_all_cpus", 
-    "workshop_thread/with_rayon"
+    "workshop_thread/with_rayon",
+     "mixed_channels", 
+     "mixed_channels2", 
 ]
+
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
